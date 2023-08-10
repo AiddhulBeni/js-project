@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keliling Lingkaran</title>
+  </head>
+  <body>
+    <div class="container">
+      <label>Diameter :</label><br />
+      <input type="text" id="diameter" /> <br /><br />
+      <button id="btnFunction">Submit</button>
+      <p>Hasil : <span id="result"></span></p>
+    </div>
+
+    <script src="keliling-lingkaran.js"></script>
+  </body>
+</html>
+
+<!-- 
+<script>
+  const phi = Math.PI;
+
+  document.getElementById('btnFunction').onclick = function() {
+    let radius = Number(document.getElementById('diameter').value);
+    const result = 2 * radius * phi;
+
+    console.log(result)
+    document.getElementById("result").innerHTML = Math.round(result);
+  };
+</script> -->
